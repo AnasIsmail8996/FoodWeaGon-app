@@ -1,0 +1,1860 @@
+:root{
+    --Theme-Warning: #F17228;
+    --Theme-Primary: #FFB30E;
+    --Theme-Gray: #424242;
+    --Theme-Gray-600: #757575;
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url('../../assets/SourceSansPro-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url('../../assets/SourceSansPro-Bold.otf') format('opentype');
+}
+
+body {
+    font-family: 'Regular', 'Medium', sans-serif;
+}
+
+
+.FoodWeagon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+.FoodWeagon img{
+    width: initial;
+    height: initial;
+    gap: 10px;
+}
+.FoodWeagon p{
+    margin-top: 0.75rem;
+    margin-left: 1rem;
+    width: 60.806px;
+    height: 36.767px;
+    flex-shrink: 0;
+
+    color: var(--Theme-Warning, #F17228);
+font-family: "Medium";
+font-size: 31.11px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 37.332px */
+letter-spacing: -0.778px;
+}
+
+.FoodWeagon p span{
+    color: var(--Theme-Primary, #FFB30E);
+    font-family:"Medium";
+    font-size: 31.11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 37.332px */
+    letter-spacing: -0.622px;
+}
+
+.current-location{
+    margin-left: 13rem;
+    cursor: pointer;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+.current-location p{
+    color: var(--Theme-Gray, #424242);
+    text-align: center;
+    
+    /* Button Bold */
+    font-family: "Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 18px */
+}
+.current-location img{
+        margin-bottom: 1.55rem;
+}
+.current-location  span{
+    color: var(--Theme-Gray, #424242);
+text-align: center;
+margin-bottom: 1.25rem;
+/* Subtitle 1 */
+font-family: "Regular";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 25.2px */
+}
+
+.form-wrapper {
+   
+    position: relative;
+    
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.form-wrapper input{
+    margin-left: -20rem;
+    padding: 15px 20px;
+    width: 170px;
+}
+::placeholder{
+    color: var(--Theme-Gray, #424242);
+text-align: center;
+margin-right:0rem;
+padding: 0px;
+/* Button Bold */
+font-family: "Regular";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 18px */
+}
+
+.search-icon{
+    position: absolute;
+    
+}
+.search-icon img{
+    margin-left: -19.55rem;
+margin-top: 1.45rem;
+}
+
+/* btn section  */
+.btn-input{
+   position: absolute;
+   margin-left: -10rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+
+
+}
+.btn-input button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 4px 24px;
+ 
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    
+    /* Shadow/1 */
+    box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+}
+.btn-input button p{
+    margin-top: 1rem;
+    text-align: center;
+    /* Button Bold */
+    font-family: "Medium";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 18px */
+
+    background: var(--323, linear-gradient(261deg, #FFAE00 63.85%, #FF8A00 111.94%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.btn-input button span img{
+    margin-bottom: 0rem;
+}
+
+
+@media (max-width:992px){
+    .NB{
+      
+    }
+    .FoodWeagon{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 0rem;
+    }
+    
+    .FoodWeagon img{
+        width: initial;
+        height: initial;
+        gap: 10px;
+    }
+    .FoodWeagon p{
+        margin-top: 0.75rem;
+        margin-left: 1rem;
+        width: 60.806px;
+        height: 36.767px;
+        flex-shrink: 0;
+    
+        color: var(--Theme-Warning, #F17228);
+    font-family: "Medium";
+    font-size: 31.11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 37.332px */
+    letter-spacing: -0.778px;
+    }
+    
+    .FoodWeagon p span{
+        color: var(--Theme-Primary, #FFB30E);
+        font-family:"Medium";
+        font-size: 31.11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 37.332px */
+        letter-spacing: -0.622px;
+    }
+    
+    .current-location{
+
+        margin-left: 0rem;
+        cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+    }
+    .current-location p{
+        color: var(--Theme-Gray, #424242);
+        text-align: center;
+        
+        /* Button Bold */
+        font-family: "Regular";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 18px */
+    }
+    .current-location img{
+            margin-bottom: 1.55rem;
+    }
+    .current-location  span{
+        color: var(--Theme-Gray, #424242);
+    text-align: center;
+    margin-bottom: 1.25rem;
+    /* Subtitle 1 */
+    font-family: "Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    }
+    
+    .form-wrapper {
+       
+        position: relative;
+        
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .form-wrapper input{
+        margin-left: 20rem;
+        padding: 15px 20px;
+        width: 170px;
+    }
+    ::placeholder{
+        color: var(--Theme-Gray, #424242);
+    text-align: center;
+    margin-right:0rem;
+    padding: 0px;
+    /* Button Bold */
+    font-family: "Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 18px */
+    }
+    
+    .search-icon{
+        position: absolute;
+        
+    }
+    .search-icon img{
+        margin-left: 20.25rem;
+    margin-top: 1.25rem;
+    }
+    
+    /* btn section  */
+    .btn-input{
+       position: absolute;
+       margin-left: 30rem;
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-start;
+       align-items: flex-start;
+    
+    
+    }
+    .btn-input button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        padding: 4px 24px;
+     
+        gap: 10px;
+        border-radius: 8px;
+        background: #FFF;
+        
+        /* Shadow/1 */
+        box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+    }
+    .btn-input button p{
+        margin-top: 1rem;
+        text-align: center;
+        /* Button Bold */
+        font-family: "Medium";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; /* 18px */
+    
+        background: var(--323, linear-gradient(261deg, #FFAE00 63.85%, #FF8A00 111.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+    .btn-input button span img{
+        margin-bottom: 0rem;
+    }
+    
+    /* .FoodWeagon-back-img {
+        position: fixed;
+            background: url('../../assets/back-ground-yallow.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: -1rem;
+            margin-top: 4rem;
+            width: 1350px;
+            height: 661px;
+          } */
+          
+}
+
+
+
+@media (max-width:767.98px){
+    .NB{
+      
+    }
+    .FoodWeagon{
+       
+        margin-left: 0rem;
+    }
+    
+    .FoodWeagon img{
+        width: initial;
+        height: initial;
+        gap: 10px;
+    }
+    .FoodWeagon p{
+        margin-top: 0.75rem;
+        margin-left: 1rem;
+        width: 60.806px;
+        height: 36.767px;
+    font-size: 31.11px;
+
+    line-height: 120%; /* 37.332px */
+
+    }
+    
+    .FoodWeagon p span{
+       
+        font-size: 31.11px;
+        font-style: normal;
+    
+        line-height: 120%; /* 37.332px */
+        letter-spacing: -0.622px;
+    }
+    
+    .current-location{
+
+        margin-left: 0rem;
+    gap:10px;
+    
+    }
+    .current-location p{
+       
+        /* Button Bold */
+     
+        font-size: 18px; 
+        font-weight: 700;
+        line-height: 100%; /* 18px */
+    }
+    .current-location img{
+            margin-bottom: 1.55rem;
+    }
+    .current-location  span{
+    margin-bottom: 1.25rem;
+    /* Subtitle 1 */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    }
+    
+    .form-wrapper {
+       
+        position: relative;
+        
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .form-wrapper input{
+        margin-left: 15rem;
+        padding: 15px 20px;
+        width: 170px;
+    }
+    ::placeholder{
+      
+    margin-right:0rem;
+    padding: 0px;
+    /* Button Bold */
+    font-family: "Regular";
+    font-size: 18px;
+  
+    line-height: 100%; /* 18px */
+    }
+    
+    .search-icon{
+        position: absolute;
+        
+    }
+    .search-icon img{
+        margin-left: 15.25rem;
+    margin-top: 1.25rem;
+    }
+    
+    /* btn section  */
+    .btn-input{
+       position: absolute;
+       margin-left: 25rem;
+    
+    
+    
+    }
+    .btn-input button{
+      
+        padding: 4px 24px;
+     
+        gap: 10px;
+        border-radius: 8px;
+        background: #FFF;
+        
+        /* Shadow/1 */
+        box-shadow: 0px 20px 40px 0px rgba(255, 174, 0, 0.29), 0px 5px 10px 0px rgba(255, 174, 0, 0.26);
+    }
+    .btn-input button p{
+        margin-top: 1rem;
+       
+        /* Button Bold */
+      
+        font-size: 18px;
+      
+        line-height: 100%; /* 18px */
+    
+      
+
+    }
+    .btn-input button span img{
+        margin-bottom: 0rem;
+    }
+    
+    /* .FoodWeagon-back-img {
+        position: fixed;
+            background: url('../../assets/back-ground-yallow.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: -1rem;
+            margin-top: 4rem;
+            width: 1350px;
+            height: 661px;
+          } */
+          
+}
+
+
+@media (max-width:575.98px){
+    .NB{
+      
+    }
+    .FoodWeagon{
+       
+        margin-left: 0rem;
+    }
+    
+    .FoodWeagon img{
+        width: initial;
+        height: initial;
+        gap: 10px;
+    }
+    .FoodWeagon p{
+        margin-top: 0.75rem;
+        margin-left: 1rem;
+        width: 60.806px;
+        height: 36.767px;
+    font-size: 31.11px;
+
+    line-height: 120%; /* 37.332px */
+
+    }
+    
+    .FoodWeagon p span{
+       
+        font-size: 31.11px;
+        font-style: normal;
+    
+        line-height: 120%; /* 37.332px */
+        letter-spacing: -0.622px;
+    }
+    
+    .current-location{
+
+        margin-left: 0rem;
+    gap:10px;
+    
+    }
+    .current-location p{
+       
+        /* Button Bold */
+     
+        font-size: 18px; 
+        font-weight: 700;
+        line-height: 100%; /* 18px */
+    }
+    .current-location img{
+            margin-bottom: 1.55rem;
+    }
+    .current-location  span{
+    margin-bottom: 1.25rem;
+    /* Subtitle 1 */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    }
+    
+    .form-wrapper {
+       
+        position: relative;
+        
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .form-wrapper input{
+        margin-left: 8rem;
+        padding: 15px 20px;
+        width: 170px;
+    }
+    ::placeholder{
+      
+    margin-right:0rem;
+    padding: 0px;
+    /* Button Bold */
+    font-family: "Regular";
+    font-size: 18px;
+  
+    line-height: 100%; /* 18px */
+    }
+    
+    .search-icon{
+        position: absolute;
+        
+    }
+    .search-icon img{
+        margin-left: 8.45rem;
+    margin-top: 1.25rem;
+    }
+    
+    /* btn section  */
+    .btn-input{
+       position: absolute;
+       margin-left: 18rem;
+    
+    
+    
+    }
+    .btn-input button{
+      
+        padding: 4px 24px;
+     
+        gap: 10px;
+        border-radius: 8px;
+        background: #FFF;
+        
+        /* Shadow/1 */
+    
+    }
+    .btn-input button p{
+        margin-top: 1rem;
+       
+        /* Button Bold */
+      
+        font-size: 18px;
+      
+        line-height: 100%; /* 18px */
+    
+      
+
+    }
+    .btn-input button span img{
+        margin-bottom: 0rem;
+    }
+  
+}
+
+@media (max-width:425.98px){
+    .NB{
+      
+    }
+    .FoodWeagon{
+       
+        margin-left: 0rem;
+    }
+    
+    .FoodWeagon img{
+        width: initial;
+        height: initial;
+        gap: 10px;
+    }
+    .FoodWeagon p{
+        margin-top: 0.75rem;
+        margin-left: 1rem;
+        width: 60.806px;
+        height: 36.767px;
+    font-size: 31.11px;
+
+    line-height: 120%; /* 37.332px */
+
+    }
+    
+    .FoodWeagon p span{
+       
+        font-size: 31.11px;
+        font-style: normal;
+    
+        line-height: 120%; /* 37.332px */
+        letter-spacing: -0.622px;
+    }
+    
+    .current-location{
+
+        margin-left: 0rem;
+    gap:2px;
+    
+    }
+    .current-location p{
+       
+        /* Button Bold */
+     
+        font-size: 15px; 
+        font-weight: 700;
+        line-height: 100%; /* 18px */
+    }
+    .current-location img{
+            margin-bottom: 1.55rem;
+    }
+    .current-location  span{
+    margin-bottom: 1.25rem;
+    /* Subtitle 1 */
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    }
+    
+    .form-wrapper {
+       
+        position: relative;
+        
+        
+    }
+    .form-wrapper input{
+        margin-left: 3rem;
+        padding: 15px 20px;
+        width: 170px;
+    }
+    ::placeholder{
+      
+    margin-right:0rem;
+    padding: 0px;
+    /* Button Bold */
+    font-family: "Regular";
+    font-size: 18px;
+  
+    line-height: 100%; /* 18px */
+    }
+    
+    .search-icon{
+        position: absolute;
+        
+    }
+    .search-icon img{
+        margin-left: 3.45rem;
+    margin-top: 1.25rem;
+    }
+    
+    /* btn section  */
+    .btn-input{
+       position: absolute;
+       margin-left: 13rem;
+    
+    
+    
+    }
+    .btn-input button{
+      
+        padding: 4px 24px;
+     
+        gap: 10px;
+        border-radius: 8px;
+        background: #FFF;
+        
+        /* Shadow/1 */
+    
+    }
+    .btn-input button p{
+        margin-top: 1rem;
+       
+        /* Button Bold */
+      
+        font-size: 18px;
+      
+        line-height: 100%; /* 18px */
+    }
+    .btn-input button span img{
+        margin-bottom: 0rem;
+    }
+  
+}
+
+@media (max-width:320px){
+    .NB{
+      
+    }
+    .FoodWeagon{
+       
+        margin-left: 0rem;
+    }
+    
+    .FoodWeagon img{
+        width: initial;
+        height: initial;
+        gap: 10px;
+    }
+    .FoodWeagon p{
+        margin-top: 0.75rem;
+        margin-left: 1rem;
+        width: 60.806px;
+        height: 36.767px;
+    font-size: 31.11px;
+
+    line-height: 120%; /* 37.332px */
+
+    }
+    
+    .FoodWeagon p span{
+       
+        font-size: 31.11px;
+        font-style: normal;
+    
+        line-height: 120%; /* 37.332px */
+        letter-spacing: -0.622px;
+    }
+    
+    .current-location{
+
+        margin-left: 0rem;
+    gap:2px;
+    
+    }
+    .current-location p{
+       
+        /* Button Bold */
+     
+        font-size: 15px; 
+        font-weight: 700;
+        line-height: 100%; /* 18px */
+    }
+    .current-location img{
+            margin-bottom: 1.55rem;
+    }
+    .current-location  span{
+    margin-bottom: 1.25rem;
+    /* Subtitle 1 */
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    }
+    
+    .form-wrapper {
+       
+        position: relative;
+        
+        
+    }
+    .form-wrapper input{
+        margin-left: 0rem;
+        padding: 15px 20px;
+        width: 170px;
+    }
+    ::placeholder{
+      
+    margin-right:0rem;
+    padding: 0px;
+    /* Button Bold */
+    font-family: "Regular";
+    font-size: 18px;
+  
+    line-height: 100%; /* 18px */
+    }
+    
+    .search-icon{
+        position: absolute;
+        
+    }
+    .search-icon img{
+        margin-left: 0.45rem;
+    margin-top: 1.25rem;
+    }
+    
+    /* btn section  */
+    .btn-input{
+       position: absolute;
+       margin-left: 10rem;
+    
+    
+    
+    }
+    .btn-input button{
+      
+        padding: 4px 24px;
+     
+        gap: 10px;
+        border-radius: 8px;
+        background: #FFF;
+        
+        /* Shadow/1 */
+    
+    }
+    .btn-input button p{
+        margin-top: 1rem;
+       
+        /* Button Bold */
+      
+        font-size: 18px;
+      
+        line-height: 100%; /* 18px */
+    }
+    .btn-input button span img{
+        margin-bottom: 0rem;
+    }
+  
+}
+
+
+
+
+
+/*after navbar starting from here */
+  .FoodWeagon-back-img {
+      
+     background: url('../../assets/back-ground-yallow.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-left: -0rem;
+    margin-top: 4rem;
+    width: 1350px;
+    height: 500px;
+}
+
+
+.starving{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-top: 4rem;
+}
+.starving h1{
+    color: var(--Theme-White, #FFF);
+    
+    
+    text-shadow: 0px 27px 82px rgba(255, 174, 0, 0.28), 0px 14px 15px rgba(255, 174, 0, 0.01);
+    
+    
+    font-family: "Medium";
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+}
+.starving p{
+    margin-top: 0.75rem;
+    color: #504F4F;
+    
+    
+    font-family: "Medium";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+}
+
+
+
+.btn-input-section{
+    width: 150%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    padding: 24px;
+    gap: 10px;
+    background: var(--Theme-White, #FFF);
+    display: inline-block;
+}
+
+.btns-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.btns-order button:first-child{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px 24px;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(241, 114, 40, 0.10);
+    
+    color: var(--Theme-Warning, #F17228);
+    
+    
+    font-family: "Medium";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+}
+
+.btns-order button:nth-child(2){
+   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border: none;
+    border-radius: 8px;
+padding: 10px 24px;
+gap: 10px;
+
+color: var(--Theme-Gray-600, #757575);
+
+
+font-family: "Medium";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; 
+  }
+
+  .input-address{
+    margin-top: 1.55rem;
+    position: relative;
+  }
+  .input-address input{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      padding: 7px 0px 8px 16px;
+      gap: 12px;
+      
+      border-radius: 8px;
+      background:  #F5F5F5;
+      width: 75%;
+  }
+
+  .input-address input::placeholder{
+text-align: start;
+padding: 25px;
+  }
+
+  .location-icon{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+  }
+  .location-icon img{
+  }
+
+
+  .find-btn{
+      margin-top: -2.75rem;
+      margin-left: 32rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+    }
+    
+    .find-btn button{
+        color: var(--Theme-White, #FFF);
+        text-align: center;
+      
+        font-family: "Medium";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%; 
+        
+        
+        border: none;
+        
+        padding: 15px 30px;
+        
+        gap: 10px;
+        border-radius: 8px;
+        background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
+        cursor: pointer;
+    }
+    .find-btn button   {
+        cursor: pointer;
+    }
+
+   
+
+
+    .ImageBase{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6rem;
+        margin-left: 6rem;
+    }
+
+    .ImageBase img{
+        width: 340px;
+height: 340px;
+flex-shrink: 0;
+    } 
+
+     @media only screen and  (max-width:992px){
+        
+
+ .FoodWeagon-back-img {
+  
+        background: url('../../assets/back-ground-yallow.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: -0rem;
+        margin-top: 4rem;
+        width: 980px;
+        height: 795px;
+      }
+      
+      
+      .starving{
+       
+        width: 250%;
+          margin-left: 0rem;
+          margin-top: 3rem;
+        }
+        .starving h1{
+            color: var(--Theme-White, #FFF);
+            
+            
+            text-shadow: 0px 27px 82px rgba(255, 174, 0, 0.28), 0px 14px 15px rgba(255, 174, 0, 0.01);
+            
+           
+            font-family: "Medium";
+            font-size: 88px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100%; 
+        }
+        .starving p{
+            margin-top: 0.75rem;
+            color: #504F4F;
+            
+            
+            font-family: "Medium";
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%; 
+        }
+        
+        
+        
+        .btn-input-section{
+            margin-left:0rem;
+            
+    width: 40rem;
+        height: 150px;
+        border-radius: 10px;
+        display: flex;
+    padding: 24px;
+    gap: 10px;
+        background: var(--Theme-White, #FFF);
+        display: inline-block;
+      }
+    
+      .btns-order{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 5px;
+        
+      }
+    
+      .btns-order button:first-child{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    padding: 10px 24px;
+    gap: 10px;
+        border-radius: 8px;
+        border: none;
+    background: rgba(241, 114, 40, 0.10);
+    color: var(--Theme-Warning, #F17228);
+    
+  
+    font-family: "Medium";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+      }
+    
+      .btns-order button:nth-child(2){
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        border: none;
+        border-radius: 8px;
+    padding: 10px 24px;
+    gap: 10px;
+    
+    color: var(--Theme-Gray-600, #757575);
+    
+  
+    font-family: "Medium";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+      }
+    
+      .input-address{
+        margin-top: 1.55rem;
+        position: relative;
+      }
+      .input-address input{
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+    
+          padding: 7px 0px 8px 16px;
+          gap: 12px;
+          
+          border-radius: 8px;
+          background: var(--Theme-Gray-100, #F5F5F5);
+          width: 27rem;
+      }
+    
+      .input-address input::placeholder{
+    text-align: start;
+    padding: 25px;
+      }
+    
+      .location-icon{
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+      }
+      .location-icon img{
+      }
+    
+    
+      .find-btn{
+          margin-top: -2.75rem;
+          margin-left: 32rem;
+          cursor: pointer;
+          display: flex;
+          
+          justify-content: center;
+          align-items: center;
+       
+        }
+        
+        .find-btn button{
+          display: flex;
+          flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            color: var(--Theme-White, #FFF);
+            text-align: center;
+           
+            font-family: "Medium";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 100%; 
+            
+            
+            border: none;
+            
+            padding:5px 40px;
+            
+            gap: 10px;
+            border-radius: 8px;
+            background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
+            cursor: pointer;
+        }
+      .find-btn button span img{
+        
+        text-align: start;
+        margin-top: 0.55rem;
+        margin-left: -2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+      } 
+      
+    
+        .ImageBase{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0rem;
+            margin-left: 0rem;
+        }
+    
+        .ImageBase img{
+            width: 340px;
+    height: 340px;
+    flex-shrink: 0;
+        }
+    } 
+
+     @media only screen and  (max-width:767.98px){
+        
+       
+         .FoodWeagon-back-img {
+                margin-left: -0rem;
+                margin-top: 4rem;
+                width: 780px;
+                height: 795px;
+              }
+              
+              
+              .starving{
+                width: 390%;
+                  margin-left: -3rem;
+                  margin-right: 0rem;
+                  margin-top: 3rem;
+                }
+                .starving h1{
+                    font-size: 75px;
+                   
+                }
+                .starving p{
+                    
+                    font-size: 19px;
+                   
+                }
+                
+              
+                .btn-input-section{
+                    margin-left:-3rem;
+                  
+            width: 40rem;
+                height: 150px;
+                border-radius: 10px;
+                display: flex;
+            padding: 24px;
+            gap: 10px;
+        
+                display: inline-block;
+              }
+            
+              .btns-order{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 5px;
+                
+              }
+            
+              .btns-order button:first-child{
+                display: flex;
+                justify-content: center;
+                align-items:center;
+            padding: 10px 24px;
+            gap: 10px;
+            
+       
+            font-family: "Medium";
+            font-size: 18px;
+       
+           
+              }
+            
+              .btns-order button:nth-child(2){
+          
+          
+                border-radius: 8px;
+            padding: 10px 24px;
+            gap: 10px;
+            
+            color: var(--Theme-Gray-600, #757575);
+         
+            font-size: 18px;
+          
+            font-weight: 700;
+          
+              }
+            
+              .input-address{
+                margin-top: 1.55rem;
+                position: relative;
+              }
+              .input-address input{
+                  
+            
+                  padding: 7px 0px 8px 16px;
+                  gap: 12px;
+                  
+                  border-radius: 8px;
+          
+                  width: 27rem;
+              }
+            
+              .input-address input::placeholder{
+            text-align: start;
+            padding: 25px;
+              }
+            
+              .location-icon{
+                position: absolute;
+                bottom: 1rem;
+                left: 1rem;
+              }
+              .location-icon img{
+              }
+            
+            
+              .find-btn{
+                  margin-top: -2.75rem;
+                  margin-left: 32rem;
+                  cursor: pointer;
+                
+               
+                }
+                
+                .find-btn button{
+                  
+                  
+                    font-size: 18px;
+                    
+                    font-weight: 600;
+                    line-height: 100%; 
+                    padding:5px 40px;
+                    
+                    gap: 10px;
+                    border-radius: 8px;
+                    cursor: pointer;
+                }
+              .find-btn button span img{
+                
+                text-align: start;
+                margin-top: 0.55rem;
+                margin-left: -2rem;
+              
+              } 
+             
+            
+            
+                .ImageBase{
+            
+                    margin-top: 0rem;
+                    margin-left: 0rem;
+                }
+            
+                .ImageBase img{
+                    width: 340px;
+            height: 340px;
+            flex-shrink: 0;
+                }
+            } 
+
+
+             @media only screen and  (max-width:575.98px){
+        
+            
+                 .FoodWeagon-back-img {
+                        margin-left: -0rem;
+                        margin-top: 4rem;
+                        width: 580px;
+                        height: 795px;
+                      }
+                      
+                    
+                      .starving{
+                     
+                        width: 95%;
+                          margin-left: -0rem;
+                          margin-right: 0rem;
+                          margin-top: 3rem;
+                        }
+                        .starving h1{
+                            font-size: 65px;
+                           
+                        }
+                        .starving p{
+                            
+                            font-size: 19px;
+                           
+                        }
+                        
+                      
+                        
+                        .btn-input-section{
+                            margin-left:-0rem;
+                             margin-top: 1rem;
+                             width: 34rem;
+                             height: 150px;
+
+                            padding: 24px;
+                            gap: 10px;
+                
+                            display: inline-block;
+                      }
+                    
+                      .btns-order{
+                     
+                        gap: 5px;
+                        
+                      }
+                    
+                      .btns-order button:first-child{
+                     
+                    padding: 10px 24px;
+                    gap: 10px;
+                    
+                  
+                    font-family: "Medium";
+                    font-size: 18px;
+               
+                   
+                      }
+                    
+                      .btns-order button:nth-child(2){
+                  
+                  
+                        border-radius: 8px;
+                    padding: 10px 24px;
+                    gap: 10px;
+                    
+                    color: var(--Theme-Gray-600, #757575);
+                    
+                 
+                    
+                    font-size: 18px;
+                  
+                    font-weight: 700;
+                  
+                      }
+                    
+                      .input-address{
+                        margin-top: 1.55rem;
+                        position: relative;
+                      }
+                      .input-address input{
+                          
+                    
+                          padding: 7px 0px 8px 16px;
+                          gap: 12px;
+                          
+                          border-radius: 8px;
+                  
+                          width: 22rem;
+                      }
+                    
+                      .input-address input::placeholder{
+                    text-align: start;
+                    padding: 25px;
+                      }
+                    
+                      .location-icon{
+                        position: absolute;
+                        bottom: 1rem;
+                        left: 1rem;
+                      }
+                      .location-icon img{
+                      }
+                    
+                    
+                      .find-btn{
+                          margin-top: -2.75rem;
+                          margin-left: 24rem;
+                          cursor: pointer;
+                        
+                       
+                        }
+                        
+                        .find-btn button{
+                          
+                          
+                            font-size: 18px;
+                            
+                            font-weight: 600;
+                            line-height: 100%; 
+                            padding:5px 40px;
+                            
+                            gap: 10px;
+                            border-radius: 8px;
+                            cursor: pointer;
+                        }
+                      .find-btn button span img{
+                        
+                        text-align: start;
+                        margin-top: 0.55rem;
+                        margin-left: -2rem;
+                      
+                      } 
+                        
+                    
+                    
+                        .ImageBase{
+                    
+                            margin-top: 0rem;
+                            margin-left: 0rem;
+                        }
+                    
+                        .ImageBase img{
+                            width: 340px;
+                    height: 340px;
+                    flex-shrink: 0;
+                        }
+                    } 
+
+
+                    @media only screen and  (max-width:425.98px){
+        
+                       
+                         .FoodWeagon-back-img {
+                                margin-left: -0rem;
+                                margin-top: 4rem;
+                                width: 420px;
+                                height: 795px;
+                              }
+                              
+                           
+                              .starving{
+                             
+                                width: 95%;
+                                  margin-left: -0rem;
+                                  margin-right: 0rem;
+                                  margin-top: 3rem;
+                                }
+                                .starving h1{
+                                    font-size: 45px;
+                                   
+                                }
+                                .starving p{
+                                    
+                                    font-size: 19px;
+                                   
+                                }
+                                
+                            
+                                
+                                .btn-input-section{
+                                    margin-left:-0rem;
+                                     margin-top: 1rem;
+                                     width: 25rem;
+                                     height: 150px;
+        
+                                    padding: 24px;
+                                    gap: 10px;
+                        
+                                    display: inline-block;
+                              }
+                            
+                              .btns-order{
+                             
+                                gap: 5px;
+                                
+                              }
+                            
+                              .btns-order button:first-child{
+                             
+                            padding: 10px 24px;
+                            gap: 10px;
+                            
+                            
+                            font-family: "Medium";
+                            font-size: 18px;
+                       
+                           
+                              }
+                            
+                              .btns-order button:nth-child(2){
+                        
+                                border-radius: 8px;
+                            padding: 10px 24px;
+                            gap: 10px;
+                            
+                            color: var(--Theme-Gray-600, #757575);
+                            
+                         
+                            
+                            font-size: 18px;
+                          
+                            font-weight: 700;
+                          
+                              }
+                            
+                              .input-address{
+                                margin-top: 1.55rem;
+                                position: relative;
+                              }
+                              .input-address input{
+                                  
+                            
+                                  padding: 7px 0px 8px 16px;
+                                  gap: 12px;
+                                  
+                                  border-radius: 8px;
+                          
+                                  width: 16rem;
+                              }
+                            
+                              .input-address input::placeholder{
+                            text-align: start;
+                            padding: 25px;
+                              }
+                            
+                              .location-icon{
+                                position: absolute;
+                                bottom: 1rem;
+                                left: 1rem;
+                              }
+                              .location-icon img{
+                              }
+                            
+                            
+                              .find-btn{
+                                  margin-top: -2.75rem;
+                                  margin-left: 17.25rem;
+                                  cursor: pointer;
+                                
+                               
+                                }
+                                
+                                .find-btn button{
+
+                                    font-size: 18px;
+
+                                    padding:5px 28px;
+                                    
+                                    gap: 10px;
+                                    border-radius: 8px;
+                                    cursor: pointer;
+                                }
+                              .find-btn button span img{
+                                
+                                text-align: start;
+                                margin-top: 0.55rem;
+                                margin-left: -1.45rem;
+                              
+                              } 
+                              
+                            
+                            
+                                .ImageBase{
+                            
+                                    margin-top: 0rem;
+                                    margin-left: 0rem;
+                                }
+                            
+                                .ImageBase img{
+                                    width: 340px;
+                            height: 340px;
+                            flex-shrink: 0;
+                                }
+                            } 
+
+
+                             @media only screen and  (max-width:320.98px){
+        
+                                 .FoodWeagon-back-img {
+                                        margin-left: -0rem;
+                                        margin-top: 4rem;
+                                        width: 320px;
+                                        height: 795px;
+                                      }
+                                      
+                                      
+                                      .starving{
+                                     
+                                        width: 95%;
+                                          margin-left: -0rem;
+                                          margin-right: 0rem;
+                                          margin-top: 3rem;
+                                        }
+                                        .starving h1{
+                                            font-size: 37px;
+                                           
+                                        }
+                                        .starving p{
+                                            
+                                            font-size: 19px;
+                                           
+                                        }
+                                        
+                                      
+                                        
+                                        .btn-input-section{
+                                            margin-left:-0rem;
+                                             margin-top: 1rem;
+                                             width: 19rem;
+                                             height: 150px;
+                
+                                           
+                                            padding: 15px;
+                                            gap: 10px;
+                                
+                                            display: inline-block;
+                                      }
+                                      
+                                      .btns-order{
+                                     margin-left: -1.25rem;
+                                        gap: 5px;
+                                        
+                                      }
+                                    
+                                      .btns-order button:first-child{
+                                     
+                                    padding: 10px 24px;
+                                    gap: 10px;
+                                    
+                                
+                                    font-family: "Medium";
+                                    font-size: 18px;
+                               
+                                   
+                                      }
+                                    
+                                      .btns-order button:nth-child(2){
+                                
+                                        border-radius: 8px;
+                                    padding: 10px 24px;
+                                    
+                                    
+                              
+                                    
+                                    font-size: 18px;
+                                  
+                                    font-weight: 700;
+                                  
+                                      }
+                                    
+                                      .input-address{
+                                        margin-top: 1.55rem;
+                                        position: relative;
+                                      }
+                                      .input-address input{
+                                          
+                                     margin-left: -1rem;
+                                          padding: 7px 0px 8px 16px;
+                                          gap: 12px;
+                                          
+                                          border-radius: 8px;
+                                  
+                                          width: 12rem;
+                                      }
+                                    
+                                      .input-address input::placeholder{
+                                    text-align: start;
+                                    padding: 25px;
+                                      }
+                                    
+                                      .location-icon{
+                                        position: absolute;
+                                        bottom: 1rem;
+                                        left: 0rem;
+                                      }
+                                      .location-icon img{
+                                      }
+                                    
+                                    
+                                      .find-btn{
+                                          margin-top: -2.75rem;
+                                          margin-left: 11.45rem;
+                                          cursor: pointer;
+                                        
+                                       
+                                        }
+                                        
+                                        .find-btn button{
+        
+                                            font-size: 18px;
+        
+                                            padding:5px 15px;
+                                            
+                                            gap: 10px;
+                                            border-radius: 8px;
+                                            cursor: pointer;
+                                        }
+                                      .find-btn button span img{
+                                        
+                                        text-align: start;
+                                        margin-top: 0.55rem;
+                                        margin-left: -0.25rem;
+                                      
+                                      } 
+                                      
+                                    
+                                    
+                                        .ImageBase{
+                                    
+                                            margin-top: 0rem;
+                                            margin-left: 0rem;
+                                        }
+                                    
+                                        .ImageBase img{
+                                            width: 280px;
+                                    height: 280px;
+                                    flex-shrink: 0;
+                                        }
+                                    }
+
+
+
+
+
+
+
+
+
+                                   

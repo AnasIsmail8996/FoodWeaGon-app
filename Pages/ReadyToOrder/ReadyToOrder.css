@@ -1,0 +1,284 @@
+.ReadyToOrder-back{
+position: relative;
+width: 1350px;
+height: 280px;
+}
+
+.ReadyToOrder-back img{
+width: 100%;
+}
+
+.ReadyToOrder-text-btn{
+    width: 650px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    margin-left: 23rem;
+    margin-top: -13rem;
+}
+
+.ReadyToOrder-text-btn h2{
+    color: var(--Theme-White, #FFF);
+text-align: center;
+font-family: "Medium";
+font-size: 57px;
+font-style: normal;
+font-weight: 900;
+line-height: 97.5%; /* 55.575px */
+}
+
+.ReadyToOrder-text-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+padding: 21px 48px;
+gap: 10px;
+border-radius: 8px;
+background: linear-gradient(93deg, #F17228 -5.63%, #F15E28 100.8%);
+
+/* Button shadow ! */
+box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+
+
+color: var(--Theme-White, #FFF);
+text-align: center;
+font-family: 'Medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+line-height: 100%; /* 18px */
+text-transform: uppercase;
+
+}
+
+
+
+
+@media only screen and (max-width:992px){
+    .ReadyToOrder-back{
+        position: relative;
+        height: 280px;
+    }
+        
+        .ReadyToOrder-back img{
+       
+        height: 325px;
+        }
+        
+        .ReadyToOrder-text-btn{
+            width: 450px;
+            position: absolute;
+            margin-left: 18rem;
+            margin-top: -16rem;
+        }
+        
+        .ReadyToOrder-text-btn h2{
+      
+        font-size: 57px;
+      
+        font-weight: 900;
+    
+        }
+        
+        .ReadyToOrder-text-btn button{
+            border: none;
+        
+        padding: 21px 48px;
+        gap: 10px;
+        border-radius: 8px;   
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 100%; /* 18px */
+        text-transform: uppercase;
+        
+        }
+        .ReadyToOrder-text-btn img{
+            width: 15px;
+            height: 15px;
+        }
+        
+        
+}
+
+@media only screen and (max-width:767.98px){
+    .ReadyToOrder-back{
+        position: relative;
+        height: 280px;
+    }
+        
+        .ReadyToOrder-back img{
+       
+        height: 325px;
+        }
+        
+        .ReadyToOrder-text-btn{
+            width: 450px;
+          
+            position: absolute;
+            margin-left: 12rem;
+            margin-top: -16rem;
+        }
+        
+        .ReadyToOrder-text-btn h2{
+      
+        font-size: 48px;
+      
+        font-weight: 900;
+    
+        }
+        
+        .ReadyToOrder-text-btn button{
+            border: none;
+        
+        padding: 21px 48px;
+        gap: 10px;
+        border-radius: 8px;   
+        font-size: 18px;
+      
+        
+        }
+        .ReadyToOrder-text-btn img{
+            width: 15px;
+            height: 15px;
+        }
+        
+        
+}
+@media only screen and (max-width:575.98px){
+    .ReadyToOrder-back{
+        position: relative;
+        height: 280px;
+    }
+        
+        .ReadyToOrder-back img{
+       width: 36rem;
+        height: 325px;
+        }
+        
+        .ReadyToOrder-text-btn{
+            width: 450px;
+          
+            position: absolute;
+            margin-left: 5rem;
+            margin-top: -16rem;
+        }
+        
+        .ReadyToOrder-text-btn h2{
+        font-size: 38px;
+        font-weight: 900;
+    
+        }
+        
+        .ReadyToOrder-text-btn button{
+            border: none;
+        
+        padding: 21px 48px;
+        gap: 10px;
+        border-radius: 8px;   
+        font-size: 18px;
+      
+        
+        }
+        .ReadyToOrder-text-btn img{
+            width: 15px;
+            height: 15px;
+        }
+        
+        
+}
+
+@media only screen and (max-width:425.98px){
+    .ReadyToOrder-back{
+        position: relative;
+        height: 280px;
+    }
+        
+        .ReadyToOrder-back img{
+       width: 26.50rem;
+        height: 325px;
+        }
+        
+        .ReadyToOrder-text-btn{
+            width: 450px;
+          
+            position: absolute;
+            margin-left: 0rem;
+            margin-top: -16rem;
+        }
+        
+        .ReadyToOrder-text-btn h2{
+        font-size: 38px;
+        font-weight: 900;
+    
+        }
+        
+        .ReadyToOrder-text-btn button{
+            border: none;
+        margin-top: 2rem;
+        padding: 21px 48px;
+        gap: 10px;
+        border-radius: 8px;   
+        font-size: 18px;
+      
+        
+        }
+        .ReadyToOrder-text-btn img{
+            width: 15px;
+            height: 15px;
+        }
+        
+        
+}
+
+@media only screen and (max-width:320.98px){
+    .ReadyToOrder-back{
+        position: relative;
+        height: 280px;
+    }
+        
+        .ReadyToOrder-back img{
+       width: 19rem;
+        height: 325px;
+        }
+        
+        .ReadyToOrder-text-btn{
+            width: 450px;
+          
+            position: absolute;
+            margin-left: 0rem;
+            margin-top: -16rem;
+        }
+        
+        .ReadyToOrder-text-btn h2{
+            margin-left: -8rem;
+            width: 225px;
+           
+        font-size: 28px;
+        font-weight: 900;
+    
+        }
+        
+        .ReadyToOrder-text-btn button{
+            border: none;
+        margin-top: 2rem;
+        padding: 21px 35px;
+        gap: 10px;
+        border-radius: 8px;   
+        font-size: 18px;
+      
+        margin-left: -8rem;
+        }
+        .ReadyToOrder-text-btn img{
+            width: 15px;
+            height: 15px;
+        }
+        
+        
+}   

@@ -1,0 +1,289 @@
+.celebrate-par-img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.celebrate-par-img img{
+    width: 100%;
+}
+
+.celeb-parties-text-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 4rem;
+}
+
+.celeb-parties-text-btn h2{
+    color: var(--Theme-Primary, #FFB30E);
+font-family: "Medium";
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%;
+}
+.celeb-parties-text-btn h2 > span{
+    color: var(--Theme-Gray, #424242);
+font-family: "Medium";
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 110%; /* 52.8px */
+}
+
+.celeb-parties-text-btn p{
+ color: var(--Theme-Gray, #616161);
+
+/* Body 1 */
+font-family: 'Regular';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 25.2px */
+}
+
+.celeb-parties-text-btn button{
+    margin-top: 2rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    gap: 10px;
+    padding: 21px 48px;
+    border-radius: 8px;
+background:  linear-gradient(93deg, #FFB800 -47.72%, #FF8A00 136.81%);
+
+/* Button shadow ! */
+box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+
+
+color: #FFF;
+text-align: center;
+
+/* Button Bold */
+font-family: "medium";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 18px */
+}
+
+
+@media only screen and (max-width:992px){
+    .celebrate-par-img{
+      
+        margin-top: 1rem;
+        margin-left: -4rem;
+        width: 25rem;
+  
+    }
+    
+    .celebrate-par-img img{
+      height: 385px;
+    }
+    
+    .celeb-parties-text-btn {
+        margin-top: 2rem;
+    }
+    .celeb-parties-text-btn h2{
+   
+    font-size: 48px;
+
+    }
+    .celeb-parties-text-btn h2 > span{
+    font-size: 45px;
+    }
+    
+    .celeb-parties-text-btn p{
+    font-size: 18px;
+    }
+    
+    .celeb-parties-text-btn button{
+        margin-top: 2rem;
+       
+        gap: 10px;
+        padding: 21px 48px;
+        border-radius: 8px;
+    color: #FFF;
+    font-size: 18px;
+   
+    }
+}
+
+@media only screen and (max-width:767.98px){
+    .celebrate-par-img{
+      
+        margin-top: 7rem;
+        margin-left: 1rem;
+        width: 25rem;
+  
+    }
+    
+    .celebrate-par-img img{
+      height: 385px;
+    }
+    
+    .celeb-parties-text-btn {
+        width: 25rem;
+ 
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    .celeb-parties-text-btn h2{
+   
+    font-size: 48px;
+
+    }
+    .celeb-parties-text-btn h2 > span{
+    font-size: 45px;
+    }
+    
+    .celeb-parties-text-btn p{
+    font-size: 18px;
+    }
+    
+    .celeb-parties-text-btn button{
+        margin-top: 2rem;
+       
+        gap: 10px;
+        padding: 21px 48px;
+        border-radius: 8px;
+    color: #FFF;
+    font-size: 18px;
+   
+    }
+}
+
+@media only screen and (max-width:575.98px){
+    .celebrate-par-img{
+      
+        margin-top: 7rem;
+        margin-left: 2rem;
+        width: 25rem;
+  
+    }
+    
+    .celebrate-par-img img{
+      height: 365px;
+    }
+    
+    .celeb-parties-text-btn {
+        width: 25rem;
+   
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .celeb-parties-text-btn h2{
+   
+    font-size: 48px;
+
+    }
+    .celeb-parties-text-btn h2 > span{
+    font-size: 45px;
+    }
+    
+    .celeb-parties-text-btn p{
+    font-size: 18px;
+    }
+    
+    .celeb-parties-text-btn button{
+        margin-top: 2rem;
+       
+        gap: 10px;
+        padding: 21px 48px;
+        border-radius: 8px;
+    font-size: 18px;
+   
+    }
+}
+
+
+@media only screen and (max-width:425.98px){
+    .celebrate-par-img{
+      
+        margin-top: 7rem;
+        margin-left: 0rem;
+        width: 24rem;
+  
+    }
+    
+    .celebrate-par-img img{
+      height: 355px;
+    }
+    
+    .celeb-parties-text-btn {
+        width: 24rem;
+
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+    .celeb-parties-text-btn h2{
+   
+    font-size: 45px;
+
+    }
+    .celeb-parties-text-btn h2 > span{
+    font-size: 45px;
+    }
+    
+    .celeb-parties-text-btn p{
+    font-size: 18px;
+    }
+    
+    .celeb-parties-text-btn button{
+        margin-top: 2rem;
+       
+        gap: 10px;
+        padding: 21px 48px;
+        border-radius: 8px;
+    font-size: 18px;
+   
+    }
+}
+
+@media only screen and (max-width:320.98px){
+    .celebrate-par-img{
+      
+        margin-top: 0rem;
+        margin-left: 0rem;
+        width: 24rem;
+  
+    }
+    
+    .celebrate-par-img img{
+      height: 335px;
+      width: 18rem;
+    }
+    
+    .celeb-parties-text-btn {
+        width: 18rem;
+
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+    .celeb-parties-text-btn h2{
+   
+    font-size: 45px;
+
+    }
+    .celeb-parties-text-btn h2 > span{
+    font-size: 45px;
+    }
+    
+    .celeb-parties-text-btn p{
+    font-size: 18px;
+    }
+    
+    .celeb-parties-text-btn button{
+        margin-top: 2rem;
+       
+        gap: 10px;
+        padding: 21px 48px;
+        border-radius: 8px;
+    font-size: 18px;
+   
+    }
+}

@@ -1,0 +1,1192 @@
+.Footer-parent{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background:  #212121;
+    width: 1350px;
+    height: 850px;
+}
+
+.footer-heading{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin-left: -1rem;
+}
+
+.footer-heading h6{
+    color: #FFF;
+    margin-left: 0rem;
+    /* Headline 6 Bold */
+    font-family: 'Medium';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+}
+
+.footer-heading li{
+    margin-left: -2rem;
+ padding: 5px;
+    
+list-style: none;
+color: #F5F5F5;
+/* Button */
+font-family: 'Regular';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 18px */
+}
+
+.footer-text-two {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+margin-top: 5rem;
+margin-left: -3rem;
+}
+
+.footer-text-two li{
+    padding: 5px;
+    color:  #F5F5F5;
+list-style: none;
+/* Button */
+font-family: "Regular";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 18px */
+}
+
+
+/* There */
+
+
+.footer-text-there {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5rem;
+    margin-left: -5rem;
+    }
+    
+    .footer-text-there li{
+        padding: 5px;
+        color:  #F5F5F5;
+    list-style: none;
+    /* Button */
+    font-family: "Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 18px */
+    }
+/* four */
+
+
+.footer-text-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5rem;
+    margin-left: -1rem;
+    }
+    
+    .footer-text-four li{
+        padding: 5px;
+        color:  #F5F5F5;
+    list-style: none;
+    /* Button */
+    font-family: "Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 18px */
+    }
+/* five */
+
+
+.footer-text-five {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5rem;
+    margin-left: -3rem;
+    }
+    
+    .footer-text-five li{
+        padding: 5px;
+        color:  #F5F5F5;
+    list-style: none;
+    /* Button */
+    font-family: "Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 18px */
+    }
+
+   .horozontel-line{
+   margin-top: 5rem;
+    height: 0px;
+    align-self: stretch;
+stroke-width: 100%;
+background-color: #6c6767;
+border: 1px solid  #6c6767;
+   }
+
+
+
+
+/* company */
+.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+margin-left: -1rem;
+}
+.company h6{
+    color: #FFF;
+
+/* Headline 6 Bold */
+font-family: 'Medium';
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 26.4px */
+}
+
+
+.company li{
+    margin-left: -2rem;
+    color:  #F5F5F5;
+    list-style: none;
+padding: 5px;
+/* Button */
+font-family: 'Regular';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 18px */
+}
+
+
+/* Contact */
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+margin-left: -1rem;  
+}
+
+.Contact h6{
+    color: #FFF;
+
+/* Headline 6 Bold */
+font-family: 'Medium';
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 26.4px */
+}
+
+
+.Contact li{
+    margin-left: -2rem;
+    color:  #F5F5F5;
+    list-style: none;
+padding: 5px;
+/* Button */
+font-family: 'Regular';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 18px */
+}
+
+
+/* Legal */
+
+
+.Legal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+margin-left: -1rem;  
+}
+
+.Legal h6{
+    color: #FFF;
+
+/* Headline 6 Bold */
+font-family: 'Medium';
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 26.4px */
+}
+
+
+.Legal li{
+    margin-left: -2rem;
+    color:  #F5F5F5;
+    list-style: none;
+padding: 5px;
+/* Button */
+font-family: 'Regular';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 18px */
+}
+
+
+.follow-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 0rem;
+}
+
+.follow-parent h6{
+    color: #F5F5F5;
+font-family: "Medium";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 21.6px */
+text-transform: uppercase;
+}
+
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1rem;
+    margin-left: -0.55rem ;
+}
+.social-icons img{
+    cursor: pointer;
+    padding: 5px;
+color: #F5F5F5;
+font-family: Font Awesome 5 Brands;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 24px */
+}
+
+.mail-text{
+    display: flex;
+    margin-top: 1rem;
+}
+.mail-text h6{
+    color: #BBB;
+
+/* Body 1 Bold */
+font-family: 'Medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 25.2px */
+}
+
+
+.input-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1rem;
+    gap: 15px;
+    position: relative;
+}
+
+.input-btn input{
+    display: flex;
+padding: 7px 0px 8px 16px;
+align-items: center;
+width: 325px;
+gap: 10px;
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 8px;
+background: var(--Theme-Gray-800, #424242);
+}
+.input-btn input::placeholder{
+    color: #ADADAD;
+text-align: start;
+padding: 25px;
+/* Body 1 */
+font-family: 'Regular';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 25.2px */
+}
+
+.input-btn button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 133px;
+padding: 21px 24px;
+gap: 10px;
+border-radius: 8px;
+background:  linear-gradient(93deg, #FFB800 -47.72%, #FF8A00 136.81%);
+
+/* Button shadow ! */
+box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+
+color: #FFF;
+text-align: center;
+
+/* Button Bold */
+font-family: 'Medium';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 18px */
+}
+
+
+
+.mail-img{
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 0.55rem;
+}
+
+
+
+.my-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-data h5{
+    color: #ADADAD;
+    line-height: 120px;
+    font-size: 25px;
+    font-family: 'Medium';
+    list-style: normal;
+    font-weight: 600;
+}
+
+
+
+
+   @media only screen and (max-width:992px){
+    .Footer-parent{
+
+        background:  #212121;
+        width: 575px;
+        height: 1350px;
+    }
+}
+   @media only screen and (max-width:575.98px){
+    .Footer-parent{
+
+        background:  #212121;
+        width: 575px;
+        height: 2590px;
+    }
+    .footer-heading{
+      
+        margin-left: 10rem;
+        margin-top: 1rem;
+     }
+     
+     .footer-heading h6{
+         color: #FFF;
+         margin-left: 0rem;
+   
+         font-size: 28px;
+     
+     }
+     
+     .footer-heading li{
+         margin-left: -2rem;
+      padding: 5px;
+         
+     
+     font-size: 22px;
+    
+     }
+     
+     .footer-text-two {
+   
+     margin-top: 5rem;
+     margin-left: 8rem;
+     }
+     
+     .footer-text-two li{
+         padding: 5px;
+      
+     font-size: 22px;
+   
+     }
+     
+     
+     /* There */
+     
+     
+     .footer-text-there {
+       
+         margin-top: 5rem;
+         margin-left: 8rem;
+         }
+         
+         .footer-text-there li{
+             padding: 5px;
+           
+         font-size: 22px;
+      
+         }
+     /* four */
+     
+     
+     .footer-text-four {
+    
+         margin-top: 5rem;
+         margin-left: 8rem;
+         }
+         
+         .footer-text-four li{
+           
+         font-size: 22px;
+
+         }
+     /* five */
+     
+     
+     .footer-text-five {
+      
+         margin-top: 5rem;
+         margin-left: 8rem;
+         }
+         
+         .footer-text-five li{
+            
+         font-size: 22px;
+      
+         }
+     
+        .horozontel-line{
+        margin-top: 5rem;
+         height: 0px;
+         align-self: stretch;
+     stroke-width: 100%;
+     background-color: #424242;
+        }
+     
+     
+     
+     
+     /* company */
+     .company{
+         
+     margin-left: 1rem;
+     }
+     .company h6{
+         color: #FFF;
+     margin-left: 10rem;
+     font-size: 25px;
+     
+     }
+     
+     
+     .company li{
+         margin-left: 8rem;
+         
+     font-size: 22px;
+   
+     }
+     
+     
+     /* Contact */
+     .Contact{
+
+     margin-left: 10rem;  
+     }
+     
+     .Contact h6{
+         color: #FFF;
+     
+     /* Headline 6 Bold */
+     font-family: 'Medium';
+     font-size: 25px;
+  
+     }
+     
+     
+     .Contact li{
+         margin-left: -2rem;
+         color:  #F5F5F5;
+         list-style: none;
+     padding: 5px;
+     /* Button */
+     font-family: 'Regular';
+     font-size: 25px;
+     
+     }
+     
+     
+     /* Legal */
+     
+     
+     .Legal{
+    
+     margin-left: 1rem;  
+     }
+     
+     .Legal h6{
+         color: #FFF;
+     
+     /* Headline 6 Bold */
+     font-family: 'Medium';
+     font-size: 25px;
+    margin-left: 9rem;
+     }
+     
+     
+     .Legal li{
+         margin-left: 7rem;
+      
+     font-size: 22px;
+    
+     }
+     
+     
+     .follow-parent{
+       
+         margin-left: 5rem;
+     }
+     
+     .follow-parent h6{
+      
+     font-size: 22px;
+   
+     }
+     
+     
+     .social-icons{
+       
+         margin-top: 1rem;
+         margin-left: -0.55rem ;
+     }
+     .social-icons img{
+     
+         padding: 5px;
+     color: #F5F5F5;
+     font-family: Font Awesome 5 Brands;
+     font-size: 24px;
+     
+     }
+     
+     .mail-text{
+         display: flex;
+         margin-top: 1rem;
+     }
+     .mail-text h6{
+         color: #BBB;
+     
+     /* Body 1 Bold */
+     font-family: 'Medium';
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 140%; /* 25.2px */
+     }
+     
+     
+     .input-btn{
+     
+         margin-top: 1rem;
+         gap: 15px;
+         position: relative;
+     }
+     
+     .input-btn input{
+         display: flex;
+     padding: 7px 0px 8px 16px;
+     align-items: center;
+     width: 325px;
+     gap: 10px;
+     flex: 1 0 0;
+     align-self: stretch;
+     border-radius: 8px;
+     background: var(--Theme-Gray-800, #424242);
+     }
+     .input-btn input::placeholder{
+       
+     padding: 25px;
+   
+     font-size: 18px;
+  
+     }
+     
+     .input-btn button{
+        
+     width: 133px;
+     padding: 21px 24px;
+     gap: 10px;
+     border-radius: 8px;
+
+     color: #FFF;
+    
+     font-size: 18px;
+   
+     }
+     
+     
+     
+     .mail-img{
+         position: absolute;
+         margin-top: 10.55rem;
+         margin-left: 0.55rem;
+     }
+     
+     
+     
+
+    
+   }
+
+
+   @media only screen and (max-width:425.98px){
+    .Footer-parent{
+        margin-top: 2.80rem;
+        background:  #212121;
+        width: 26.50rem;
+        height: 2650px;
+    }
+    .footer-heading{
+      
+        margin-left: 10rem;
+        margin-top: 1rem;
+     }
+     
+     .footer-heading h6{
+         color: #FFF;
+         margin-left: 0rem;
+   
+         font-size: 28px;
+     
+     }
+     
+     .footer-heading li{
+         margin-left: -2rem;
+      padding: 5px;
+         
+     
+     font-size: 22px;
+    
+     }
+     
+     .footer-text-two {
+   
+     margin-top: 5rem;
+     margin-left: 8rem;
+     }
+     
+     .footer-text-two li{
+         padding: 5px;
+      
+     font-size: 22px;
+   
+     }
+     
+     
+     /* There */
+     
+     
+     .footer-text-there {
+       
+         margin-top: 5rem;
+         margin-left: 8rem;
+         }
+         
+         .footer-text-there li{
+             padding: 5px;
+           
+         font-size: 22px;
+      
+         }
+     /* four */
+     
+     
+     .footer-text-four {
+    
+         margin-top: 5rem;
+         margin-left: 8rem;
+         }
+         
+         .footer-text-four li{
+           
+         font-size: 22px;
+
+         }
+     /* five */
+     
+     
+     .footer-text-five {
+      
+         margin-top: 5rem;
+         margin-left: 8rem;
+         }
+         
+         .footer-text-five li{
+            
+         font-size: 22px;
+      
+         }
+     
+        .horozontel-line{
+        margin-top: 5rem;
+         height: 0px;
+        
+        }
+     
+     
+     
+     
+     /* company */
+     .company{
+         
+     margin-left: 1rem;
+     }
+     .company h6{
+         color: #FFF;
+     margin-left: 10rem;
+     font-size: 25px;
+     
+     }
+     
+     
+     .company li{
+         margin-left: 8rem;   
+     font-size: 22px;
+   
+     }
+     
+     
+     /* Contact */
+     .Contact{
+
+     margin-left: 10rem;  
+     }
+     
+     .Contact h6{
+         color: #FFF;
+     
+     /* Headline 6 Bold */
+     font-family: 'Medium';
+     font-size: 25px;
+  
+     }
+     
+     
+     .Contact li{
+         margin-left: -2rem;
+         color:  #F5F5F5;
+         list-style: none;
+     padding: 5px;
+     /* Button */
+     font-family: 'Regular';
+     font-size: 25px;
+     
+     }
+     
+     
+     /* Legal */
+     
+     
+     .Legal{
+    
+     margin-left: 1rem;  
+     }
+     
+     .Legal h6{
+         color: #FFF;
+     
+     /* Headline 6 Bold */
+     font-family: 'Medium';
+     font-size: 25px;
+    margin-left: 9rem;
+     }
+     
+     
+     .Legal li{
+         margin-left: 7rem;
+      
+     font-size: 22px;
+    
+     }
+     
+     
+     .follow-parent{
+       
+         margin-left: 2rem;
+     }
+     
+     .follow-parent h6{
+      
+     font-size: 22px;
+   
+     }
+     
+     
+     .social-icons{
+       
+         margin-top: 1rem;
+         margin-left: -0.55rem ;
+     }
+     .social-icons img{
+     
+         padding: 5px;
+     color: #F5F5F5;
+     font-family: Font Awesome 5 Brands;
+     font-size: 24px;
+     
+     }
+     
+     .mail-text{
+         display: flex;
+         margin-top: 1rem;
+     }
+     .mail-text h6{
+         color: #BBB;
+     
+     /* Body 1 Bold */
+ 
+     font-size: 22px;
+   
+     }
+     
+     
+     .input-btn{
+     
+         margin-top: 1rem;
+         gap: 15px;
+         position: relative;
+     }
+     
+     .input-btn input{
+         display: flex;
+     padding: 7px 0px 8px 16px;
+     
+     width: 225px;
+     gap: 10px;
+     flex: 1 0 0;
+     
+     border-radius: 8px;
+     background: var(--Theme-Gray-800, #424242);
+     }
+     .input-btn input::placeholder{
+     padding: 25px;
+     font-size: 18px;
+  
+     }
+     
+     .input-btn button{
+        
+     width: 133px;
+     padding: 21px 24px;
+     gap: 10px;
+     border-radius: 8px;
+
+     color: #FFF;
+    
+     font-size: 18px;
+   
+     }
+     
+     
+     
+     .mail-img{
+         position: absolute;
+         margin-top: 12.55rem;
+         margin-left: 0.55rem;
+     }
+     
+     
+     
+
+    
+   }
+
+   @media only screen and (max-width:320.98px){
+    .Footer-parent{
+        margin-top: 2.80rem;
+        background:  #212121;
+        width: 305px;
+        height: 2650px;
+    }
+    .footer-heading{
+      
+        margin-left: 3rem;
+        margin-top: 1rem;
+     }
+     
+     .footer-heading h6{
+         color: #FFF;
+         margin-left: 0rem;
+   
+         font-size: 28px;
+     
+     }
+     
+     .footer-heading li{
+         margin-left: 0rem;
+      padding: 5px;
+         
+     
+     font-size: 22px;
+    
+     }
+     
+     .footer-text-two {
+   
+     margin-top: 5rem;
+     margin-left: 3rem;
+     }
+     
+     .footer-text-two li{
+         padding: 5px;
+      
+     font-size: 22px;
+   
+     }
+     
+     
+     /* There */
+     
+     
+     .footer-text-there {
+       
+         margin-top: 5rem;
+         margin-left: 3rem;
+         }
+         
+         .footer-text-there li{
+             padding: 5px;
+           
+         font-size: 22px;
+      
+         }
+     /* four */
+     
+     
+     .footer-text-four {
+    
+         margin-top: 5rem;
+         margin-left: 3rem;
+         }
+         
+         .footer-text-four li{
+           
+         font-size: 22px;
+
+         }
+     /* five */
+     
+     
+     .footer-text-five {
+      
+         margin-top: 5rem;
+         margin-left: 3rem;
+         }
+         
+         .footer-text-five li{
+            
+         font-size: 22px;
+      
+         }
+     
+        .horozontel-line{
+        margin-top: 5rem;
+         height: 0px;
+        
+        }
+     
+     
+     
+     
+     /* company */
+     .company{
+         
+     margin-left: 1rem;
+     }
+     .company h6{
+         color: #FFF;
+     margin-left: 4rem;
+     font-size: 25px;
+     
+     }
+     
+     
+     .company li{
+         margin-left: 2rem;   
+     font-size: 22px;
+   
+     }
+     
+     
+     /* Contact */
+     .Contact{
+
+     margin-left: 4rem;  
+     }
+     
+     .Contact h6{
+         color: #FFF;
+     
+     /* Headline 6 Bold */
+     font-family: 'Medium';
+     font-size: 25px;
+  
+     }
+     
+     
+     .Contact li{
+         margin-left: -2rem;
+         color:  #F5F5F5;
+         list-style: none;
+     padding: 5px;
+     /* Button */
+     font-family: 'Regular';
+     font-size: 25px;
+     
+     }
+     
+     
+     /* Legal */
+     
+     
+     .Legal{
+    
+     margin-left: 1rem;  
+     }
+     
+     .Legal h6{
+         color: #FFF;
+     
+     /* Headline 6 Bold */
+     font-family: 'Medium';
+     font-size: 25px;
+    margin-left: 3rem;
+     }
+     
+     
+     .Legal li{
+         margin-left: 0rem;
+      
+     font-size: 22px;
+    
+     }
+     
+     
+     .follow-parent{
+       
+         margin-left: 1rem;
+     }
+     
+     .follow-parent h6{
+      
+     font-size: 22px;
+   
+     }
+     
+     
+     .social-icons{
+       
+         margin-top: 1rem;
+         margin-left: -0.55rem ;
+     }
+     .social-icons img{
+     
+         padding: 5px;
+     color: #F5F5F5;
+     font-family: Font Awesome 5 Brands;
+     font-size: 24px;
+     
+     }
+     
+     .mail-text{
+         display: flex;
+         margin-top: 1rem;
+     }
+     .mail-text h6{
+         color: #BBB;
+     
+     /* Body 1 Bold */
+ 
+     font-size: 22px;
+   
+     }
+     
+     
+     .input-btn{
+     
+         margin-top: 1rem;
+         gap: 15px;
+         position: relative;
+     }
+     
+     .input-btn input{
+         display: flex;
+     padding: 7px 0px 8px 16px;
+     
+     width: 168px;
+     gap: 10px;
+   
+     }
+     .input-btn input::placeholder{
+     padding: 25px;
+     font-size: 18px;
+  
+     }
+     
+     .input-btn button{
+        
+     width: 90px;
+     padding: 21px 20px;
+     gap: 10px;
+     border-radius: 8px;
+
+     color: #FFF;
+    
+     font-size: 18px;
+   
+     }
+     
+     
+     
+     .mail-img{
+         position: absolute;
+         margin-top: 12.55rem;
+         margin-left: 0.55rem;
+     }
+     
+     
+     
+
+    
+   }
